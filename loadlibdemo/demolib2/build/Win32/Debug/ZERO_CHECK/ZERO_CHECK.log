@@ -1,0 +1,10 @@
+﻿Build started 2019/9/2 14:01:03.
+Project "C:\Users\zyl\Desktop\loadlibdemo\demolib2\build\ZERO_CHECK.vcxproj" on node 2 (Rebuild target(s)).
+CustomBuild:
+  Checking Build System
+  CMake does not need to re-run because C:/Users/zyl/Desktop/loadlibdemo/demolib2/build/CMakeFiles/generate.stamp is up-to-date.
+Done Building Project "C:\Users\zyl\Desktop\loadlibdemo\demolib2\build\ZERO_CHECK.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.31

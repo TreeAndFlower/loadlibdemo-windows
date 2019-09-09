@@ -1,0 +1,29 @@
+﻿Build started 2019/9/2 13:56:43.
+Project "C:\Users\zyl\Desktop\loadlibdemo\demolib1\build\demolibone.vcxproj" on node 2 (Rebuild target(s)).
+CustomBuild:
+  Building Custom Rule C:/Users/zyl/Desktop/loadlibdemo/demolib1/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/zyl/Desktop/loadlibdemo/demolib1/build/CMakeFiles/generate.stamp is up-to-date.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\zyl\Desktop\loadlibdemo\demolib1\. /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D JSON_IS_AMALGAMATION /D "CMAKE_INTDIR=\"Debug\"" /D demolibone_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"demolibone.dir\Debug\\" /Fd"demolibone.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\zyl\Desktop\loadlibdemo\demolib1\realfun.cpp
+  realfun.cpp
+C:\Users\zyl\Desktop\loadlibdemo\demolib1\realfun.cpp(8): warning C4273: 'one_fun_api': inconsistent dll linkage
+  c:\users\zyl\desktop\loadlibdemo\demolib1\realfun.h(13): note: see previous definition of 'one_fun_api'
+C:\Users\zyl\Desktop\loadlibdemo\demolib1\realfun.cpp(16): warning C4273: 'two_fun_api': inconsistent dll linkage
+  c:\users\zyl\desktop\loadlibdemo\demolib1\realfun.h(15): note: see previous definition of 'two_fun_api'
+C:\Users\zyl\Desktop\loadlibdemo\demolib1\realfun.cpp(24): warning C4273: 'three_fun_api': inconsistent dll linkage
+  c:\users\zyl\desktop\loadlibdemo\demolib1\realfun.h(17): note: see previous definition of 'three_fun_api'
+C:\Users\zyl\Desktop\loadlibdemo\demolib1\realfun.cpp(32): warning C4273: 'four_fun_api': inconsistent dll linkage
+  c:\users\zyl\desktop\loadlibdemo\demolib1\realfun.h(19): note: see previous definition of 'four_fun_api'
+C:\Users\zyl\Desktop\loadlibdemo\demolib1\realfun.cpp(40): warning C4273: 'five_fun_api': inconsistent dll linkage
+  c:\users\zyl\desktop\loadlibdemo\demolib1\realfun.h(21): note: see previous definition of 'five_fun_api'
+C:\Users\zyl\Desktop\loadlibdemo\demolib1\realfun.cpp(47): warning C4273: 'six_fun_api': inconsistent dll linkage
+  c:\users\zyl\desktop\loadlibdemo\demolib1\realfun.h(23): note: see previous definition of 'six_fun_api'
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zyl\Desktop\loadlibdemo\demolib1\build\Debug\demolibone.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/zyl/Desktop/loadlibdemo/demolib1/build/Debug/demolibone.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/zyl/Desktop/loadlibdemo/demolib1/build/Debug/demolibone.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /DLL demolibone.dir\Debug\realfun.obj
+     Creating library C:/Users/zyl/Desktop/loadlibdemo/demolib1/build/Debug/demolibone.lib and object C:/Users/zyl/Desktop/loadlibdemo/demolib1/build/Debug/demolibone.exp
+  demolibone.vcxproj -> C:\Users\zyl\Desktop\loadlibdemo\demolib1\build\Debug\demolibone.dll
+Done Building Project "C:\Users\zyl\Desktop\loadlibdemo\demolib1\build\demolibone.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.94

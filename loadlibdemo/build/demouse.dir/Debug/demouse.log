@@ -1,0 +1,26 @@
+﻿Build started 2019/9/2 14:15:11.
+Project "C:\Users\zyl\Desktop\loadlibdemo\build\demouse.vcxproj" on node 2 (Rebuild target(s)).
+CustomBuild:
+  Building Custom Rule C:/Users/zyl/Desktop/loadlibdemo/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/zyl/Desktop/loadlibdemo/build/CMakeFiles/generate.stamp is up-to-date.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\zyl\Desktop\loadlibdemo\. /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D JSON_IS_AMALGAMATION /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"demouse.dir\Debug\\" /Fd"demouse.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\zyl\Desktop\loadlibdemo\demo.cpp C:\Users\zyl\Desktop\loadlibdemo\loadAdapter.cpp
+  demo.cpp
+  loadAdapter.cpp
+C:\Users\zyl\Desktop\loadlibdemo\loadAdapter.cpp(41): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
+C:\Users\zyl\Desktop\loadlibdemo\loadAdapter.cpp(48): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
+C:\Users\zyl\Desktop\loadlibdemo\loadAdapter.cpp(55): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
+C:\Users\zyl\Desktop\loadlibdemo\loadAdapter.cpp(62): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
+C:\Users\zyl\Desktop\loadlibdemo\loadAdapter.cpp(69): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
+C:\Users\zyl\Desktop\loadlibdemo\loadAdapter.cpp(76): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
+C:\Users\zyl\Desktop\loadlibdemo\loadAdapter.cpp(83): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
+  Generating Code...
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zyl\Desktop\loadlibdemo\build\Debug\demouse.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/zyl/Desktop/loadlibdemo/build/Debug/demouse.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/zyl/Desktop/loadlibdemo/build/Debug/demouse.lib" /MACHINE:X86 /SAFESEH  /machine:X86 demouse.dir\Debug\demo.obj
+  demouse.dir\Debug\loadAdapter.obj
+  demouse.vcxproj -> C:\Users\zyl\Desktop\loadlibdemo\build\Debug\demouse.exe
+Done Building Project "C:\Users\zyl\Desktop\loadlibdemo\build\demouse.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.76

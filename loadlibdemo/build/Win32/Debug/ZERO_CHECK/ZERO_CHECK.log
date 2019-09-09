@@ -1,0 +1,26 @@
+﻿Build started 2019/9/2 14:15:11.
+Project "C:\Users\zyl\Desktop\loadlibdemo\build\ZERO_CHECK.vcxproj" on node 2 (Rebuild target(s)).
+CustomBuild:
+  Checking Build System
+  CMake is re-running because C:/Users/zyl/Desktop/loadlibdemo/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Users/zyl/Desktop/loadlibdemo/CMakeLists.txt'
+    is newer than 'C:/Users/zyl/Desktop/loadlibdemo/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  CMake Warning (dev) in CMakeLists.txt:
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/zyl/Desktop/loadlibdemo/build
+    No cmake_minimum_required command is present.  A line of code such as
+  
+      cmake_minimum_required(VERSION 3.14)
+  
+    should be added at the top of the file.  The version specified may be lower
+    if you wish to support older CMake versions for this project.  For more
+    information run "cmake --help-policy CMP0000".
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+Done Building Project "C:\Users\zyl\Desktop\loadlibdemo\build\ZERO_CHECK.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.28
